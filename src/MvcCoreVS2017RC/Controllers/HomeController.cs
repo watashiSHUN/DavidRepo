@@ -22,7 +22,7 @@ namespace MvcCoreVS2017RC.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = $"Your contact page. {ClassLibraryHello.Class1.SayHello("David")}";
 
             return View();
         }
