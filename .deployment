@@ -1,2 +1,2 @@
 [config]
-SCM_SCRIPT_GENERATOR_ARGS=azure site deploymentscript -y --no-dot-deployment -r "D:\kudu\apps\dotnetcore\site\repository" -o "D:\kudu\apps\dotnetcore\site\deployments\tools" --aspNetCore "D:\kudu\apps\dotnetcore\site\repository\src\MvcCoreVS2017RC\MvcCoreVS2017RC.csproj" --solutionFile "D:\kudu\apps\dotnetcore\site\repository\MvcCoreVS2017RC.sln"
+SCM_SCRIPT_GENERATOR_ARGS=azure site deploymentscript -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --aspNetCore "D:\home\site\repository\src\MvcCoreVS2017RC\MvcCoreVS2017RC.csproj" --solutionFile "D:\home\site\repository\MvcCoreVS2017RC.sln"
